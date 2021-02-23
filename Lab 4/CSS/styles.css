@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color:rgb(43, 71, 94);
 }
 
 img {
@@ -7,33 +7,29 @@ img {
 }
 
 a {
-    color: lightslategray;
+    color:  rgb(255, 212, 61);
 }
 
 a:hover {
-    color: black;
+    background-color: rgb(255, 212, 61);
+    color: rgb(43, 71, 94);
     text-decoration: none;
 }
 
 #container{
     width: 75%;
-    border: 4px solid black;
+    margin: 0 auto;
+    background-color: white;
+    color: rgb(43, 71, 94);
     padding: 20px;
-    margin: 20px auto;
-}
-
-header {
-    background-image: url('../Images/Affordable\ Answers\ white.png');
-    background-position: center center;
-    height: 300px;
+    border: 2px rgb(255, 212, 61);
 }
 
 header h1 {
+    color: white;
     font-size: 60px;
     text-align: center;
     line-height: 250px;
-    color: white;
-    text-shadow: 2px 2px 2px;
 }
 
 nav {
@@ -44,19 +40,19 @@ nav {
 
 nav a {
     padding: 20px 60px;
-    background-color: lightslategray;
-    color: white;
+    background-color: rgb(43, 71, 94);
+    color: rgb(255, 212, 61);
     font-size: 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: black;
-    color: lightslategray;
+    background-color: rgb(255, 212, 61);
+    color: rgb(43, 71, 94);
 }
 
 main {
-        background-color: white;
+        background-color: rgb(43, 71, 94);
         padding: 20px;
         margin: 5px 0;
     }
@@ -72,11 +68,12 @@ footer {
     padding: 40px 0;
     text-align: center;
     background-color: white;
+    color: rgb(43, 71, 94);
 }
 
 .imgstyle {
     border-radius: 0;
-    border: 4px solid black;
+    border: 4px rgb(255, 212, 61);
     box-shadow: 5px 10px 5px;
 }
 .contact {
