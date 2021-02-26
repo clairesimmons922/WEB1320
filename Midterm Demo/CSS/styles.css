@@ -3,14 +3,8 @@ body {
     background-image: url('../images/dots.png');
     background-position: center center;
     background-attachment: fixed;
+    font-family: Georgia;
 }
-
-/* Color Theme Swatches in Hex */
-.CS04-1-hex { color: #152840; }
-.CS04-2-hex { color: #70D9AF; }
-.CS04-3-hex { color: #F294A5; }
-.CS04-4-hex { color: #B0D9C1; }
-.CS04-5-hex { color: #F2D1CE; }
 
 img {
     max-width: 100%
@@ -23,18 +17,19 @@ h1, h2 {
 
 header {
     background-color: #152840;
-    color: #B0D9C1;
+    color: #fff;
     padding-top: 1px;
     padding-bottom: 1px;
     text-align: center;
     font-size: 40px;
 }
 
-header img {
-    display: block;
-    width: 65%;
-    margin: 0 auto;
-    padding: 40px;
+a {
+    color: #70D9AF;
+}
+
+a:hover {
+    color: #F294A5;
 }
 
 #container {
@@ -87,12 +82,8 @@ main img {
 footer {
     background-color: #152840;
     text-align: center;
-    color: #B0D9C1;
+    color: #fff;
     padding: 40px 0;
-}
-
-.mando {
-    width: 25%;
 }
 
 .active {
@@ -100,7 +91,36 @@ footer {
     color: #333745;   
 }
 
-.pictures {
-    border: 4px solid #F6F792;
-    border-radius: 20px;
+.recipes {
+    border: 4px solid #70D9AF;
+    margin-left: 0px;
+    width: 30%;
+}
+
+.books {
+    border: 2px solid #333745;
+    margin-left: 0px;
+    width: 30%;
+}
+
+.quotes {
+    font-style: italic;
+}
+
+.baloo {
+    float: left;
+    width: 48%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.pets {
+    border: 4px solid #F294A5;
+    width: 60%;
 }
