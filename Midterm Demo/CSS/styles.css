@@ -1,9 +1,16 @@
 body {
-    background-image: url('../images/alderaan-concept-002.jpg');
-    background-size: cover;
+    background-color: #DAEDE2;
+    background-image: url('../images/dots.png');
     background-position: center center;
     background-attachment: fixed;
 }
+
+/* Color Theme Swatches in Hex */
+.CS04-1-hex { color: #152840; }
+.CS04-2-hex { color: #70D9AF; }
+.CS04-3-hex { color: #F294A5; }
+.CS04-4-hex { color: #B0D9C1; }
+.CS04-5-hex { color: #F2D1CE; }
 
 img {
     max-width: 100%
@@ -11,10 +18,16 @@ img {
 
 h1, h2 {
     text-align: center;
+    color: #152840;
 }
 
 header {
-    background-color: black;
+    background-color: #152840;
+    color: #B0D9C1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 40px;
 }
 
 header img {
@@ -25,32 +38,40 @@ header img {
 }
 
 #container {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: #fff;
+    color: #152840;
     width: 75%;
     margin: 0 auto;
-    border-left: 4px solid black;
-    border-right: 4px solid black;
+    border-left: 4px solid #F2D1CE;
+    border-right: 4px solid #F2D1CE;
+    border-top: 4px solid #F2D1CE;
+    border-bottom: 4px solid #F2D1CE;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 nav {
-    background-color: rgba(140, 3, 3, 55);
+    background-color: #fff;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
 nav a {
-    background-color: white;
-    padding: 22px 50px;
+    background-color: #70D9AF;
+    padding: 20px 20px;
     font-size: 20px;
-    color: black;
+    color: #333745;
     text-decoration: none;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 20px 20px;
 }
 
 nav a:hover {
-background-color: black;
-color: white;
+background-color: #F294A5;
+color: #333745;
 }
 
 main {
@@ -64,9 +85,9 @@ main img {
 }
 
 footer {
-    background-color: #000;
+    background-color: #152840;
     text-align: center;
-    color: #fff;
+    color: #B0D9C1;
     padding: 40px 0;
 }
 
@@ -75,11 +96,11 @@ footer {
 }
 
 .active {
-    background-color: black;
-    color: white;   
+    background-color: #F294A5;
+    color: #333745;   
 }
 
-.screens {
-    border: 4px solid yellow;
+.pictures {
+    border: 4px solid #F6F792;
     border-radius: 20px;
 }
