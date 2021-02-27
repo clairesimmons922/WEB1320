@@ -1,6 +1,6 @@
 body {
     background-color: #DAEDE2;
-    background-image: url('../images/dots.png');
+    background-image: url('../images/dots_lrg.png');
     background-position: center center;
     background-attachment: fixed;
     font-family: Georgia;
@@ -36,16 +36,13 @@ a:hover {
     background-color: #fff;
     color: #152840;
     width: 75%;
-    margin: 0 auto;
+    margin: 0px auto;
     border-left: 4px solid #F2D1CE;
     border-right: 4px solid #F2D1CE;
     border-top: 4px solid #F2D1CE;
     border-bottom: 4px solid #F2D1CE;
     text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
 }
 
 nav {
@@ -57,8 +54,8 @@ nav {
 
 nav a {
     background-color: #70D9AF;
-    padding: 15px 15px;
-    font-size: 16px;
+    padding: 18px 18px;
+    font-size: 18px;
     color: #333745;
     text-decoration: none;
     border-radius: 20px 20px 20px 20px;
