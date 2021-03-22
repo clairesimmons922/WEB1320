@@ -7,3 +7,5 @@
     <li><a href="Lab 3/index.html" target="_blank">Lab 3 - Affordable Answers</a></li>
     <li><a href="Lab 4/index.html" target="_blank">Lab 4 - Affordable Answers (CSS)</a></li>
     <li><a href="Midterm Demo/index.html" target="_blank">Midterm Demo</a></li>
+    <li><a href="Lab 5/index.html" target="_blank">Lab 5 - Baby Simmons</a></li>
+</ul>
