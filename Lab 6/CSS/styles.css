@@ -1,0 +1,148 @@
+/* Global Styles */
+
+body {
+    background-color: rgb(235, 230, 218);
+}
+
+img {
+    max-width: 50%;
+    max-height: 400px;
+}
+
+a {
+    color: #4FBF30
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: #F2D129;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(235, 230, 218);
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid #F2D129;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: #275AF2;
+}
+
+main {
+    background-color: rgb(235, 230, 218);
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(235, 230, 218);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Tablet Styles */
+
+@media screen and (min-width: 768px) {
+    header {
+        background-image: url(../images/books.png);
+        background-size: cover;
+        background-position: center center;
+        padding: 150px
+    }   
+
+    header h1 {
+        font-size: 2em;
+        color: #275AF2;
+        text-shadow: black 2px 2px 2px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        padding: 10px 10px;
+        border-top: rgb(235, 230, 218);
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        border: 2px solid #F2D129;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    section {
+        width: 60%;
+        padding: 10px;
+    }
+
+    aside {
+        width: 40%;
+        padding: 10px;
+    }
+
+    .desktop {
+        display: block;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+    header {
+        background-image: url(../images/confetti.png);
+        background-color: rgb(235, 230, 218);
+        padding: 50px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        color: #F2D129;
+    }
+
+    nav li a {
+        font-size: 30px;
+        padding: 20px 50px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .active {
+        background-color: #275AF2;
+    }
+}
