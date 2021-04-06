@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: #722f37;
 }
 
 audio, video, table {
@@ -8,11 +8,15 @@ audio, video, table {
 
 /* Mobile Styles */
 
-#container {margin: 10px;}
+#container {
+    margin: 10px;
+    color: #EAD275;
+}
 
 header {
-    background-image: url(../images/MicrosoftTeams-image.png);
+    background-image: url(../images/pairings.png);
     background-size: cover;
+    background-position: center center;
     height: 250px;
     padding: 10px;
 }
@@ -20,12 +24,12 @@ header {
 header h1 {
     line-height: 280px;
     text-align: center;
-    color: yellow;
-    text-shadow: 2px 2px 2px black;
+    color: #722f37;
+    text-shadow: #EAD275 2px 2px 2px;
 }
 
 nav {
-    background-color: black;
+    background-color: #EAD275;
     padding: 1px 0;
     text-align: center;
 }
@@ -41,26 +45,26 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: black;
+    background-color: #EAD275;
     padding: 15px;
     margin-top: 2px;
-    color: yellow;
+    color: #722f37;
     font-size: 1.4em;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: red;
+    background-color: #2F733E;
 }
 
 section {
-    background-color: black;
+    background-color: #EAD275;
     padding: 20px;
     margin: 5px 0;
 }
 
 section h2, section h3 {
-    color: yellow;
+    color: #EAD275;
     text-align: center;
 }
 
@@ -70,27 +74,35 @@ section h2, section h3 {
 
 table {
     width: 100%;
-    border: 2px solid yellow;
+    border: 2px solid #722f37;
 }
 
 tr, th, td {
-    border: 2px solid yellow;
-    color: red;
+    border: 2px solid #2F733E;
+    color: #EAD275;
     text-align: center;
     padding: 10px;
 }
 
 footer {
-    background-color: black;
+    background-color: #EAD275;
     text-align: center;
-    color: red;
+    color: #2F733E;
     padding: 20px 0;
 }
 
 /* Tablet View */
 @media only screen and (min-width: 768px) {
+       
+    header {
+        background-image: url(../images/pairings.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        padding: 10px;
+    }
     nav {
-        background-color: black;
+        background-color: #EAD275;
         padding: 5px 0;
     }
 
@@ -102,8 +114,8 @@ footer {
 
     nav li a {
         width: 150px;
-        border-top: 2px solid yellow;
-        border-bottom: 2px solid yellow;
+        border-top: 2px solid #722f37;
+        border-bottom: 2px solid #722f37;
     }
 }
 
@@ -114,7 +126,9 @@ footer {
     #container {
         width: 75%;
         margin: 20px auto;
-        border: 4px solid red;
+        border: 6px solid #2F733E;
+        color: #EAD275;
+        padding: 10px 10px;
     }
 
     header {
@@ -124,7 +138,6 @@ footer {
     header h1 {
         line-height: 525px;
         font-size: 4em;
-        text-shadow: 4px 4px 4px black;
     }
 
     nav li a {
@@ -134,5 +147,8 @@ footer {
 
     video {
         width: 50%;
+    }
+    footer {
+        font-size: 1.2em;
     }
 }
