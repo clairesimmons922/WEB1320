@@ -127,7 +127,7 @@ footer {
         width: 75%;
         margin: 20px auto;
         border: 6px solid #2F733E;
-        color: #EAD275;
+        color: #722f37;
         padding: 10px 10px;
     }
 
@@ -145,9 +145,24 @@ footer {
         margin: 10px;
     }
 
+    section {
+        color: #722f37;
+        text-align: center;
+    }
+
+    section h2, section h3 {
+        color: #722f37;
+        text-align: center;
+    }
+
     video {
         width: 50%;
     }
+
+    #tables {
+        color: #722f37;
+    }
+
     footer {
         font-size: 1.2em;
     }
