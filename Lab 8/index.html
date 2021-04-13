@@ -4,18 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lab 8 - Intro to JS</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <div id="container">
-        <header></header>
-        <nav></nav>
+        <header>
+            <h1>Intro to JS</h1>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <main>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section>
+                <h2>Italy Photos</h2>
+                <div class="slider">
+                    <div><img src="images/cinque_terre.jpg" alt="Cinque Terre"></div>
+                    <div><img src="images/market.jpg" alt="Campo de' Fiori"></div>
+                    <div><img src="images/vatican.jpg" alt="The Vatican"></div>
+                    <div><img src="images/grapes.jpg" alt="Chianti Grapes"></div>
+                </div> 
+            </section>
+            <section>
+                <h2>Itinerary</h2>
+                <div id="accordion">
+                    <h3>Rome</h3>
+                    <div>
+                      <p>Highlights: pasta making class, dinner at Baccanale, purse shopping
+                      </p>
+                    </div>
+                    <h3>Florence</h3>
+                    <div>
+                      <p>Highlights: the Duomo, Florentine steak, day trip to Cinque Terre</p>
+                    </div>
+                    <h3>Venice</h3>
+                    <div>
+                      <p>Highlights: gondola ride</p>
+                    </div>
+                  </div>
+            </section>
+            <section>
+                <h2>jQuery UI TabsMy Favorite Pastas</h2>
+                <div id="tabs">
+                    <ul>
+                      <li><a href="#tabs-1">Number 3</a></li>
+                      <li><a href="#tabs-2">Number 2</a></li>
+                      <li><a href="#tabs-3">Number 1</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                      <p>Basil Pesto</p>
+                    </div>
+                    <div id="tabs-2">
+                      <p>Cacio e Pepe</p>
+                    </div>
+                    <div id="tabs-3">
+                      <p>ANYTHING in a white truffle sauce</p>
+                    </div>
+                  </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>&copy; 2021 Lab 8 - Intro to JS</footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider({
+                auto: true
+            });
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
+
 </body>
 </html>

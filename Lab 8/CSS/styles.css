@@ -1,0 +1,40 @@
+header {
+    background-color: #4d8578;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+header h1 {
+    color: 	#e7dddd;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+/* Mobile Styles */
+
+section {
+    background-color: #e7dddd;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+section h2 {
+    text-align: center;
+    color: #ff6060;
+}
+
+footer {
+    background-color: #4d8578;
+    padding: 40px 0;
+    text-align: center;
+    color: 	#e7dddd;
+}
+
+#menu {
+    display: none;
+}
+
+.slicknav_btn {
+    background-color: #e7dddd;
+}
