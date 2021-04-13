@@ -1,3 +1,7 @@
+body {
+    font-family: 'Nunito';
+}
+
 header {
     background-color: #4d8578;
     padding: 10px 0;
@@ -37,4 +41,54 @@ footer {
 
 .slicknav_btn {
     background-color: #e7dddd;
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px) {
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+nav {
+    text-align: center;
+    background-color: #73ae7a;
+    padding: 5px 0;
+    }
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        color: 	#e7dddd;
+        background-color: #ff6060;
+        padding: 10px 0;
+        width: 150px;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
+
+    nav li a:hover {
+        background-color: #ff3b3b;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
 }
