@@ -1,0 +1,94 @@
+/* Global Syles */
+
+body {
+    background-color:white;
+    color: #024059;
+    font-family: 'Roboto';
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    align-items: center;
+}
+
+a {
+    color: #024059;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F2DE4C;
+    font-weight: bold;
+}
+
+/* Mobile Styles */
+
+header {
+    background-color: #024059;
+    text-align: center;
+}
+
+nav {
+    background-color: #024059;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 0;
+    border-top: 2px solid #F2DE4C;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+nav ul a:hover {
+    background-color: #F2DE4C;
+    color: #024059
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+footer {
+    background-color: #024059;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.active {
+    background-color: #F2DE4C;
+    color: #024059
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+}

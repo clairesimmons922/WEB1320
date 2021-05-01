@@ -11,4 +11,5 @@
     <li><a href="Lab 6/index.html" target="_blank">Lab 6 - Baby Simmons (4pg)</a></li>
     <li><a href="Lab 7/index.html" target="_blank">Lab 7 - Food & Wine Pairing</a></li>
     <li><a href="Lab 8/index.html" target="_blank">Lab 8 - Intro to JS</a></li>
+    <li><a href="Final/index.html" target="_blank">Final</a></li>
 </ul>
