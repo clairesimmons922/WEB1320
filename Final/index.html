@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
@@ -13,13 +14,13 @@
 <body>
     <div id="container">
     <header>
-        <img src="images/Affordable_Answers.png" alt="Affordable Answers logo">
+        
     </header>
     <nav>
         <ul id="menu">
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active" href="index.html">About</a></li>
             <li><a href="residential.html">Residential</a></li>
-            <li><a href="commercial.html">Commercial</a></li>
+            <li><a href="commercial.html">Small Business</a></li>
             <li><a href="reviews.html">Reviews</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -27,57 +28,150 @@
     <main>
         <a id="top"></a>
         <h2>Affordable Answers</h2>
-        <p>Welcome to Affordable Answers, offering technology services for residential clients and small businesses located in Atlanta and Chattanooga. </p>
-        <br>
-
-        <h3>Atlanta Area</h3>
-            <ul>
-                <li>Alpharetta</li>
-                <li>Brookhaven</li>
-                <li>Buckhead</li>
-                <li>Chastain</li>
-                <li>East Cobb</li>
-                <li>Sandy Springs</li>
-                <li>Smyrna</li>
-                <li>Vinings</li>
-            </ul>
+            <p>Welcome to Affordable Answers, offering technology services for residential clients and small businesses located in Atlanta and Chattanooga. </p>
             <br>
-
-        <h3>NEW! Now Servicing Chattanooga</h3>
-            <ul>
-                <li>Apison</li>
-                <li>Collegedale</li>
-                <li>East Brainerd</li>
-                <li>Hixson</li>
-                <li>North Shore</li>
-                <li>Ooltewah</li>
-                <li>Red Bank</li>
-                <li>Signal Mountain</li>
-            </ul>
-            <br>
+        <h2>Services</h2>
+            <div class="row">
+                <div class="rollover">
+                <img src="images/cnetwork.png" alt="any network" style="width:100%">
+                    <div class="overlay">
+                        <div>
+                            <ul class="text">
+                                <li>Network design and simplification</li><br>
+                                <li>Repurpose existing wiring <br>(coax, phone, ethernet)</li><br>
+                                <li>configure modems and routers</li>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rollover">
+                    <img src="images/mac_pc.png" alt="any mac or pc" style="width:100%">
+                        <div class="overlay">
+                            <div>
+                                <ul class="text">
+                                    <li>Operating system updates</li><br>
+                                    <li>Microsoft 365 licensing and installation</li><br>
+                                    <li>Software use and training</li>   
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="rollover">
+                    <img src="images/data.png" alt="any data" style="width:100%">
+                        <div class="overlay">
+                            <div>
+                                <ul class="text">
+                                    <li>Local backup and cloud storage</li><br>
+                                    <li>Data consolidation (photos, etc)</li><br>
+                                    <li>Password and data recovery</li>   
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="rollover">
+                <img src="images/wifi.png" alt="any wifi" style="width:100%">
+                    <div class="overlay">
+                        <div>
+                            <ul class="text">
+                                <li>Configure wireless access and devices</li><br>
+                                <li>Assess wireless upgrade potential</li><br>
+                                <li>Design and install whole home wifi</li>   
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rollover">
+                    <img src="images/smart_home.png" alt="any smart home" style="width:100%">
+                        <div class="overlay">
+                            <div>
+                                <ul class="text">
+                                    <li>Alexa</li>
+                                    <li>Apple HomeKit</li>
+                                    <li>Arlo</li>
+                                    <li>Cove</li>
+                                    <li>Google Home</li>  
+                                    <li>Ring</li> 
+                                    <li>Samsung SmartThings</li>
+                                    <li>SimpliSafe</li>
+                                    <li>Sonos</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="rollover">
+                    <img src="images/repair.png" alt="any repair" style="width:100%">
+                        <div class="overlay">
+                            <div>
+                                <ul class="text">
+                                    <li>Virus Removal</li><br>
+                                    <li>Tune Up</li><br>
+                                    <li>Upgrades</li>   
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
         
-        <h3>Services</h3>
-            <p>We offer a wide variety of computer, network, video and technology services and training.</p>
-            <ul>
-                <li>Training: Application, OS, Network, Application and Database Design</li>
-                <li>Computer: Tune Ups, Virus Removal, and Operating System Reinstallations</li> 
-                <li>Computer Repairs: LCD, Data Drive, Memory Replacement and Upgrades </li>
-                <li>Data: Manipulation, Duplicate File Removal, Backup/Restore, Old Storage Consolidation, and Hard Drive Failure Recovery</li> 
-                <li>Networking: Wireless Assessments, Network Design, Cable and Wiring</li>
-                <li>Video: Design, Upgrades, and Fault Tracing</li>
-            </ul>
-            <br>
-
+        <h2>Now Servicing<br>
+            Atlanta AND Chattanooga</h2>
+            <section>
+                <table id="location">
+                    <tr>
+                        <th>Atlanta</th>
+                        <th>Chattanooga</th>
+                    </tr>
+                    <tr>
+                        <td>Alpharetta</td>
+                        <td>Apison</td>
+                    </tr>
+                    <tr>
+                        <td>Brookhaven</td>
+                        <td>Collegedale</td>
+                    </tr>
+                    <tr>
+                        <td>Buckhead</td>
+                        <td>East Brainerd</td>
+                    </tr>
+                    <tr>
+                        <td>Chastain</td>
+                        <td>Hixson</td>
+                    </tr>
+                    <tr>
+                        <td>East Cobb</td>
+                        <td>North Shore</td>
+                    </tr>
+                    <tr>
+                        <td>Sandy Springs</td>
+                        <td>Ooltewah</td>
+                    </tr>
+                    <tr>
+                        <td>Smyrna</td>
+                        <td>Red Bank</td>
+                    </tr>
+                    <tr>
+                        <td>Vinings</td>
+                        <td>Signal Mountain</td>
+                    </tr>
+                </table>
+            </section><br>
+        
+        
         <h4>Your Neighborhood IT Department</h4>
             <p class="center">Any PC - Any Mac - Any Network
                 <br><br>
-            Any <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">Internet of Things (IoT)</a></p>
-            <img src="images/network.png" alt="IoT"><br><br>
+            Any <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank">Internet of Things (IoT)</a></p><br><br>
         <a href="#top">Back to Top</a>
     </main>
     <footer>&copy; 2021 Affordable Answers<br>
     <a class="footer" href="tel:404-452-2895">404-452-2895</a> | <a class="footer" href="mailto:brian.affordable@gmail.com">brian.affordable@gmail.com</a></footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="JS/jquery.slicknav.min.js"></script>
+        <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+        </script>
     <script src="JS/zenscroll-min.js"></script>
 </body>
 </html>
