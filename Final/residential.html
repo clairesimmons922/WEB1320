@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="images/affordable_favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/IoT_favicon.ico">
 </head>
 <body>
     <div id="container">
     <header>
-        
+        <a id="top"></a>
     </header>
     <nav>
         <ul id="menu">
@@ -24,24 +26,35 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
-        <a id="top"></a>
-        <h2>Residential Services</h2>
-        <p>Residential clients are key to my business.  I have three pricing models for residential jobs; although residential needs tend to be smaller, they require just as much detailed attention as the largest commercial clients.</p>
-            <ol>
-                <li>Simply time and expense for training and software configuration issues</li>
-                <li>Fixed bid for hardware repairs, cabling and wireless assessments</li>
-                <li>Not to exceed quotes for virus removal, data backups, software installation and operating system (re)installs or upgrades</li>
-            </ol>
+    <main class="column">
+        <section>
+            <img src="images/residential.png" alt="Residential"><br><br><br><br>
+            <a href="#top">Back to Top</a>
+        </section>
+        <aside>
+            <h2>Residential Services</h2>
+            <p>Residential clients are key to my business.  I have three pricing models for residential jobs; although residential needs tend to be smaller, they require just as much detailed attention as the largest commercial clients.</p>
+                <ol>
+                    <li>Simply time and expense for training and software configuration issues</li>
+                    <li>Fixed bid for hardware repairs, cabling and wireless assessments</li>
+                    <li>Not to exceed quotes for virus removal, data backups, software installation and operating system (re)installs or upgrades</li>
+                </ol>
             <p>Of course there are situations that don’t fit into the above models and I am always flexible.
             </p>
-        <br>
-        <img src="images/residential.png" alt="Commercial"><br><br>
-        <a href="#top">Back to Top</a>
+        </aside>    
+        
     </main>
     <footer>&copy; 2021 Affordable Answers<br>
     <a class="footer" href="tel:404-452-2895">404-452-2895</a> | <a class="footer" href="mailto:brian.affordable@gmail.com">brian.affordable@gmail.com</a></footer>
-    </div>
-    <script src="JS/zenscroll-min.js"></script>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="JS/jquery.slicknav.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        $('#menu').slicknav();
+    });
+    </script>
+<script src="JS/zenscroll-min.js"></script>
 </body>
 </html>

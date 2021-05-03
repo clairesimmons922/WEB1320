@@ -1,7 +1,7 @@
 /* Global Syles */
 
 body {
-    background-color:#f5f5f5;
+    background-color: #5993BD;
     font-family: 'Roboto';
     color: #111c24;
 }
@@ -22,21 +22,15 @@ a:hover {
     font-weight: bold;
 }
 
-.slicknav_btn {
-    background-color: #f5f5f5;
-    color: #111c24;
-    text-decoration: none;
-}
-
 /* Mobile Styles */
 
 header {
     text-align: center;
     background-color: #f5f5f5;
-    background-image: url(../images/IoT.png);
+    background-image: url(../images/IoT_network.png);
     background-size: cover;
     background-position:center;
-    height: 300px;    
+    height: 240px;    
 }
 
 nav {
@@ -69,7 +63,7 @@ nav ul a:hover {
 
 main {
     padding: 20px;
-    margin: 10px;
+    margin: 0px;
     background: #f5f5f5;
 }
 
@@ -94,7 +88,7 @@ footer {
 
 .footer {
     color: #f5f5f5;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 p {
@@ -156,11 +150,26 @@ tr, th, td {
     padding: 4px;
 }
 
+#menu {
+    display: none;
+}
+
+.slicknav_btn {
+    background-color: rgb(165, 203, 242);
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 768px) {
 
+    .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
     header {
-        height: 600px;    
+        height: 450px;    
     }
     
     main {
@@ -180,6 +189,11 @@ tr, th, td {
         padding: 10px;
         margin: 10px;
         width: 50%;
+    }
+
+    footer {
+        font-size: 1.25em;
+        font-weight: normal;
     }
 
     .rollover {
@@ -203,14 +217,41 @@ tr, th, td {
 
 @media only screen and (min-width: 1024px) {
 
+    header {
+        height: 400px;
+    }
     
     nav li a {
         display: inline;
         padding: 2px 30px;
-        font-size: 3em;
+        font-size: 2.5em;
         text-decoration: none;
         color: #111c24;
         font-weight: bold;
+    }
+
+    .column {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    section {
+        width: 50%;
+        padding: 10px;
+    }
+
+    aside {
+        width: 50%;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 1.8em;
+        font-weight: normal;
     }
 
     .rollover {

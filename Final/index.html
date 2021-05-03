@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/slicknav.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="images/affordable_favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/IoT_favicon.ico">
 </head>
 <body>
     <div id="container">
     <header>
-        
+        <a id="top"></a>
     </header>
     <nav>
         <ul id="menu">
@@ -26,7 +27,6 @@
         </ul>
     </nav>
     <main>
-        <a id="top"></a>
         <h2>Affordable Answers</h2>
             <p>Welcome to Affordable Answers, offering technology services for residential clients and small businesses located in Atlanta and Chattanooga. </p>
             <br>
@@ -39,7 +39,7 @@
                             <ul class="text">
                                 <li>Network design and simplification</li><br>
                                 <li>Repurpose existing wiring <br>(coax, phone, ethernet)</li><br>
-                                <li>configure modems and routers</li>   
+                                <li>Configure modems and routers</li>   
                             </ul>
                         </div>
                     </div>
@@ -114,46 +114,45 @@
         
         <h2>Now Servicing<br>
             Atlanta AND Chattanooga</h2>
-            <section>
-                <table id="location">
-                    <tr>
-                        <th>Atlanta</th>
-                        <th>Chattanooga</th>
-                    </tr>
-                    <tr>
-                        <td>Alpharetta</td>
-                        <td>Apison</td>
-                    </tr>
-                    <tr>
-                        <td>Brookhaven</td>
-                        <td>Collegedale</td>
-                    </tr>
-                    <tr>
-                        <td>Buckhead</td>
-                        <td>East Brainerd</td>
-                    </tr>
-                    <tr>
-                        <td>Chastain</td>
-                        <td>Hixson</td>
-                    </tr>
-                    <tr>
-                        <td>East Cobb</td>
-                        <td>North Shore</td>
-                    </tr>
-                    <tr>
-                        <td>Sandy Springs</td>
-                        <td>Ooltewah</td>
-                    </tr>
-                    <tr>
-                        <td>Smyrna</td>
-                        <td>Red Bank</td>
-                    </tr>
-                    <tr>
-                        <td>Vinings</td>
-                        <td>Signal Mountain</td>
-                    </tr>
-                </table>
-            </section><br>
+            <table id="location">
+                <tr>
+                    <th>Atlanta</th>
+                    <th>Chattanooga</th>
+                </tr>
+                <tr>
+                    <td>Alpharetta</td>
+                    <td>Apison</td>
+                </tr>
+                <tr>
+                    <td>Brookhaven</td>
+                    <td>Collegedale</td>
+                </tr>
+                <tr>
+                    <td>Buckhead</td>
+                    <td>East Brainerd</td>
+                </tr>
+                <tr>
+                    <td>Chastain</td>
+                    <td>Hixson</td>
+                </tr>
+                <tr>
+                    <td>East Cobb</td>
+                    <td>North Shore</td>
+                </tr>
+                <tr>
+                    <td>Sandy Springs</td>
+                    <td>Ooltewah</td>
+                </tr>
+                <tr>
+                    <td>Smyrna</td>
+                    <td>Red Bank</td>
+                </tr>
+                <tr>
+                    <td>Vinings</td>
+                    <td>Signal Mountain</td>
+                </tr>
+            </table>
+            <br>
         
         
         <h4>Your Neighborhood IT Department</h4>
@@ -167,7 +166,8 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="JS/jquery.slicknav.min.js"></script>
-        <script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script>
         $(function(){
             $('#menu').slicknav();
         });
